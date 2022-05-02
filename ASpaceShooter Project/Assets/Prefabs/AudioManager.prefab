@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6064460694844173545
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6064460694844173547}
+  - component: {fileID: 6064460694844173544}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6064460694844173547
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6064460694844173545}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6064460694844173544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6064460694844173545}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d62f977832fcbbd409435ddecf13957c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: PlayerDeath
+    clip: {fileID: 8300000, guid: 1fd31868d68903d4f9e2c4a3b7ef98f3, type: 3}
+    volume: 0.205
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: Theme1
+    clip: {fileID: 8300000, guid: d73c27ce6250f09498b83e54e534ed6c, type: 3}
+    volume: 0.47
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: EngineStarts
+    clip: {fileID: 8300000, guid: ff2d1f399d8b70049b4d8613355eaca8, type: 3}
+    volume: 0.701
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: EngineRunning
+    clip: {fileID: 8300000, guid: 001ce1d510eeba643bd48d647adbf4de, type: 3}
+    volume: 0.896
+    pitch: 1
+    source: {fileID: 0}
+    loop: 1
+  - name: GeyGerSound
+    clip: {fileID: 8300000, guid: d9e1b27f68b7367498c14ed02c515517, type: 3}
+    volume: 0.439
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: WarningSound
+    clip: {fileID: 8300000, guid: 8a3f50fa1abf554478af7fd1135365cc, type: 3}
+    volume: 0.439
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: ShieldSound
+    clip: {fileID: 8300000, guid: 18b19bbf287724049a35e085cbcd1c38, type: 3}
+    volume: 0.535
+    pitch: 0.853
+    source: {fileID: 0}
+    loop: 0
+  - name: TargetLocked
+    clip: {fileID: 8300000, guid: 4dfd20ec53da19447a09fde897552072, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: Stabilized
+    clip: {fileID: 8300000, guid: 1c155eeaf010e394c89b0c75db90678d, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
